@@ -38,6 +38,13 @@ export default function Home() {
               placeholder="Enter your input"
               className="w-full px-4 py-2 border border-zinc-300 rounded-lg text-black dark:bg-zinc-800 dark:border-zinc-600 dark:text-white focus:outline-none focus:ring-2 focus:ring-zinc-500"
             />
+            <button
+            type="button"
+            className="mt-4 px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-bg-gray-800">
+            Calculate
+            </button>
+
+
           </div>
         </div>
       </main>
