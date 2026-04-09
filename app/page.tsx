@@ -8,7 +8,10 @@ export default function Home() {
           </h1>
           <div className="w-full max-w-md">
             <label className="block text-3xl font-medium text-zinc-700 dark:text-zinc-300 mb-2">
-              made by Tharatape Saelee 6604062636305
+              made by Tharatape Saelee
+            </label>
+            <label className="block text-2xl font-medium text-zinc-700 dark:text-zinc-300 mb-2">
+              6604062636305
             </label>
             <label className="block text-xl font-medium text-zinc-700 dark:text-zinc-300 mb-2 mt-6">
               Select Your calculation method
@@ -16,7 +19,7 @@ export default function Home() {
             <label className="block text-xl font-medium text-zinc-700 dark:text-zinc-300 mb-2 mt-6">
             </label>
             <select
-              className="w-full px-4 py-2 border border-zinc-300 rounded-lg text-black dark:bg-zinc-800 dark:border-zinc-600 dark:text-white focus:outline-none focus:ring-2 focus:ring-zinc-500"
+              className="w-full px-4 py-2 border border-zinc-300 rounded-lg text-black  dark:bg-zinc-800 dark:border-zinc-600 dark:text-white focus:outline-none focus:ring-2 focus:ring-zinc-500"
             >
               <option value="">-- Select a Method --</option>
               <option value="newton">Newton's Method</option>
